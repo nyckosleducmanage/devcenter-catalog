@@ -11,6 +11,6 @@ parameters:
 - id: "location"
   name: "location"
   description: "Location to deploy the environment resources"
-  default: "westus3"
+  default: "francecentral"
   type: "string"
 runner: Bicep
