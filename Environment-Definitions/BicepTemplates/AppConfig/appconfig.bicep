@@ -2,7 +2,7 @@
 param name string
 
 @description('Specifies the Azure location where the app configuration store should be created.')
-param location string = 'westus3'
+param location string = 'francecentral'
 
 @description('Specifies the names of the key-value resources. The name is a combination of key and label with $ as delimiter. The label is optional.')
 param keyValueNames array = [
